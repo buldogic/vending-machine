@@ -1,0 +1,35 @@
+.root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 600px;
+  box-shadow: 4px 4px 6px black;
+  border-radius: 15px 15px 0 0;
+}
+
+.message {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  padding: 10px;
+  border: 6px solid rgb(102, 100, 100);
+  border-bottom: none;
+  background-color: wheat;
+  white-space: pre-wrap;
+}
+
+.vendingMachine {
+  height: 600px;
+  background-color: rgb(102, 100, 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

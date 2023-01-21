@@ -1,0 +1,52 @@
+.serviceForm {
+  display: flex;
+  border: 3px solid rgb(102, 100, 100);
+  background-color: wheat;
+}
+
+.blockServiceProduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2px 2px 2px 5px;
+  margin-left: 10px;
+  border-left: 6px solid rgb(102, 100, 100);
+}
+.inputProduct {
+  width: 30px;
+}
+.blockServiceChange{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.Change {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0px 2px 2px;
+}
+.inputChange {
+  width: 30px;
+}
+.blockServiceSum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 3px solid rgb(102, 100, 100);
+  background-color: wheat;
+}
+
+.nameApparat {
+  
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  background-color: rgb(181, 123, 234);
+  color: white;
+  border: 3px solid rgb(102, 100, 100);
+}

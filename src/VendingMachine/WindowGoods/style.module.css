@@ -1,0 +1,26 @@
+.windowGoods{
+    width: 370px;
+    height: 590px;
+    border-radius: 15px 0px 0px 0px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    border: 3px solid rgb(102, 100, 100);
+    align-items: flex-end;
+   }
+.blockProducts{
+    width: 100vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(102, 100, 100);
+    cursor: pointer;
+
+}
+
+.img{
+    width: 6vh;
+    
+}
